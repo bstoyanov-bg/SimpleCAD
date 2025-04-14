@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SimpleCAD.Models;
+using SimpleCAD.Data.Models;
 
 namespace SimpleCAD.Data
 {

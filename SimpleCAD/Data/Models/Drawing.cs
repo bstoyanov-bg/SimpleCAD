@@ -1,4 +1,4 @@
-﻿namespace SimpleCAD.Models
+﻿namespace SimpleCAD.Data.Models
 {
     public class Drawing
     {

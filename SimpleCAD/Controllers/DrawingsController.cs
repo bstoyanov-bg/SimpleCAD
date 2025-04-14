@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SimpleCAD.Data;
-using SimpleCAD.Models;
+using SimpleCAD.Data.Models;
 
 namespace SimpleCAD.Controllers
 {
