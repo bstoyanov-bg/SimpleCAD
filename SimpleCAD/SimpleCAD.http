@@ -1,0 +1,6 @@
+@SimpleCAD_HostAddress = http://localhost:5242
+
+GET {{SimpleCAD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
