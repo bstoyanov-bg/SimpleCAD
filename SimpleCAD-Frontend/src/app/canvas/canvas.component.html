@@ -1,1 +1,11 @@
-<p>canvas works!</p>
+<div>
+    <h3>Drawing name: </h3>
+    <input type="text" id="drawingNameInput" placeholder="Enter drawing name..." required>
+</div>
+<div>
+    <button (click)="addLine()">Add Line</button>
+    <button (click)="addCircle()">Add Circle</button>
+    <button (click)="saveDrawing()">Save</button>
+    <button (click)="loadDrawing(3)">Load</button>
+    <canvas id="canvas" #canvas width="800" height="600"></canvas>
+</div>
